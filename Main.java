@@ -28,34 +28,34 @@ public class Main {
       System.out.println("They will receive 10% off.");
       //Calculates amount saved
       double amountSaved = (amountSpent * TEN_OFF);
-      System.out.println("They will save $" + amountSaved);
+      System.out.println("They will save $" + amountSaved + ".");
       //Calculates remaining total
       double total = (amountSpent - amountSaved);
-      System.out.println("The new total is $" + total);
+      System.out.println("The new total is $" + total + ".");
       
       //Calculates cost if you get 20% off
     } else if(amountSpent >= 40.01 && amountSpent <= 80.00){
       System.out.println("They will receive 20% off.");
       double amountSaved = (amountSpent * TWENTY_OFF);
-      System.out.println("They will save $" + amountSaved);
+      System.out.println("They will save $" + amountSaved + ".");
       double total = (amountSpent - amountSaved);
-      System.out.println("The new total is $" + total);
+      System.out.println("The new total is $" + total + ".");
 
       //Calculates if you get 30% off
     } else if(amountSpent >= 80.01 && amountSpent <= 120.00){
       System.out.println("They will receive 30% off.");
       double amountSaved = (amountSpent * THIRTY_OFF);
-      System.out.println("They will save $" + amountSaved);
+      System.out.println("They will save $" + amountSaved + ".");
       double total = (amountSpent - amountSaved);
-      System.out.println("The new total is $" + total);
+      System.out.println("The new total is $" + total + ".");
 
       //Calculates if you get 40%off
     } else {
       System.out.println("They will receive 40% off.");
       double amountSaved = (amountSpent * FORTY_OFF);
-      System.out.println("They will save $" + amountSaved);
+      System.out.println("They will save $" + amountSaved + ".");
       double total = (amountSpent - amountSaved);
-      System.out.println("The new total is $" + total);
+      System.out.println("The new total is $" + total + ".");
     }
 
 
